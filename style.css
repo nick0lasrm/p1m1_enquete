@@ -1,5 +1,5 @@
 body {
-
+    background-color: #CCCCCC;
 }
 
 input {
@@ -19,35 +19,40 @@ button:hover {
 }
 
 .container {
-
+    background: rgb(30,12,33);
+    background: linear-gradient(180deg, rgba(30,12,33,1) 50%, rgba(99,30,111,1) 100%);
 }
 
-.header {
-
+.title {
+    color: #FECD23;
 }
 
-.header-title {
-
+.text {
+    color: #FFFFF7;
 }
 
-.header-subtitle {
-
+.subtitle {
+    color: #D6E4E9;
 }
 
 .flex-container {
-
+    background: rgb(30,12,33);
+    background: linear-gradient(0deg, rgba(30,12,33,1) 50%, rgba(99,30,111,1) 100%);
 }   
 
-.col-1 {
-
+.flex-boxes {
+    display: flex;
+    justify-content: space-around;
 }
 
-.col-2 {
-
+.int-box {
+    background: rgb(61,94,238);
+    background: linear-gradient(180deg, rgba(61,94,238,1) 50%, rgba(114,205,254,1) 100%);
 }
 
-.col-3 {
-
+.box {
+    background: rgb(38,55,219);
+    background: linear-gradient(180deg, rgba(38,55,219,1) 50%, rgba(51,41,136,1) 100%);
 }
 
 .images-group {
